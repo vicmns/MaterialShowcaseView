@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin">12dp</dimen>
+    <dimen name="target_indicator_size">50dp</dimen>
+    <dimen name="showcase_layout_text_horizontal_margin">25dp</dimen>
+    <dimen name="showcase_layout_text_vertical_margin">20dp</dimen>
+    <dimen name="showcase_text_layout_minimum_height">200dp</dimen>
+    <dimen name="showcase_layout_button_vertical_margin">10dp</dimen>
+    <dimen name="showcase_layout_button_horizontal_margin">10dp</dimen>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="fabCenterDrawable" format="reference" />
+    <attr name="fabSize" format="enum">
+        <enum name="normal" value="0" />
+        <enum name="small" value="1" />
+    </attr>
+    <attr name="fabProgressBackgroundStrokeColor" format="reference|color" />
+    <attr name="fabProgressIndicatorStrokeColor" format="reference|color" />
+
+    <declare-styleable name="FloatingActionButton">
+        <attr name="fabCenterDrawable" />
+        <attr name="fabSize" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressFloatingActionButton">
+        <attr name="fabCenterDrawable" />
+        <attr name="fabSize" />
+        <attr name="fabProgressBackgroundStrokeColor" />
+        <attr name="fabProgressIndicatorStrokeColor" />
+        <attr name="fabBackgroundDrawable" format="reference" />
+        <attr name="fabElevation" format="dimension" />
+        <attr name="fabStateListAnimator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="BinaryFabStates">
+        <attr name="normal_state" format="boolean" />
+        <attr name="ok_state" format="boolean" />
+        <attr name="error_state" format="boolean" />
+    </declare-styleable>
+
+    <attr name="floatingActionButtonStyle" format="reference" />
+</resources>
